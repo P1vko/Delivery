@@ -13,6 +13,12 @@ button {
     color: inherit;
 }
 
+a:focus,
+button:focus,
+input:focus {
+    outline: none;
+}
+
 .hide {
     display: none;
 }
