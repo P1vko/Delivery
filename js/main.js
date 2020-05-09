@@ -134,6 +134,7 @@ function createCardRestaurant(restaurant) {
   `;
 
   cardsRestaurants.insertAdjacentHTML('beforeend', card);
+  console.log(restaurant);
 
 }
 
